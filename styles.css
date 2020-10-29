@@ -1,0 +1,180 @@
+body{
+  background : url('images/fond_jaune.png');
+  margin: 10px 200px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 25px;
+}
+header nav li {
+  padding: 12px;
+  list-style-type: none;
+  margin: auto;
+
+}
+header nav li a{
+  text-decoration: none;
+  color: black;
+}
+header nav li :hover{
+  color : red;
+  border-bottom: solid red 2px;
+}
+.title_article img{
+  width: 100%;
+}
+.ta{
+  background: rgba(0, 0,0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top : -55px;
+  color: white;
+
+}
+
+.btn_a{
+  background: #7b241c;
+  border-radius: 12px 10px 10px 12px;
+  color: white;
+  margin: 12px;
+}
+section{
+  display: flex;
+  justify-content: space-between;
+}
+article{
+    width: 60%;
+}
+.art_tit{
+  display: flex;
+
+}
+.art_tit img{
+  margin-right: 10px;
+}
+aside{
+  background: gray;
+  height: 75%;
+  width: 30%;
+  color:white;
+}
+aside h1{
+  text-align: center;
+}
+aside img{
+  margin: 5px 100px;
+}
+aside p{
+  margin: 5px 10px;
+}
+.social{
+
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.facebook{
+  background: url('images/facebook.png');
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+
+}
+.twitter{
+  background: url('images/twitter.png');
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+}
+.vimeo{
+  background: url('images/vimeo.png');
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+
+}
+.f{
+  background: url('images/flickr.png');
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+}
+.rss{
+  background: url('images/rss.png');
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+
+}
+
+/* Footer */
+
+footer
+{
+    display: flex;
+    background:  url('images/ico_top.png') no-repeat top center, url('images/separateur.png') repeat-x top, url('images/ombre.png') repeat-x top;
+    padding-top: 25px;
+}
+
+footer p, footer ul
+{
+    font-size: 0.8em;
+}
+
+footer h1
+{
+    font-size: 1.1em;
+}
+
+
+#tweet
+{
+    width: 28%;
+}
+
+#mes_photos
+{
+    width: 35%;
+}
+
+#mes_amis
+{
+    width: 31%;
+}
+
+#mes_photos img
+{
+    border: 1px solid #181818;
+    margin-right: 2px;
+}
+
+#listes_amis
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+#mes_amis ul
+{
+    list-style-image: url('images/ico_liensexterne.png');
+    padding-left: 2px;
+}
+
+#mes_amis a
+{
+    text-decoration: none;
+    color: #760001;
+}
